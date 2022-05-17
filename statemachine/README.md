@@ -16,7 +16,7 @@ Create a new instance of this construct, handing it a fully parsed version of th
 Then add overridden values.
 The fields in the `overrides` field should match the `States` field of the ASL.
 
-```ts
+```go
 const secret = new Secret(stack, 'Secret', {});
 new StateMachine(stack, 'Test', {
   stateMachineName: 'A nice state machine',
